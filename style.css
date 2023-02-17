@@ -1,6 +1,10 @@
+body{
+    text-align:center;
+}
 .body_background {
-    background-image:url(hOye.gif);
-    background-position:center;}
+    background-image:url(https://media.tenor.com/JScwZptdCqMAAAAM/happy-birthday.gif);
+    background-position:center;
+}
 #myCanvas{
    border-width:10px;
    background-color: azure;
@@ -8,9 +12,21 @@
    border-color: rgb(117, 61, 139);
 }
 
-#hi{
+#hi {
     background-color: bisque;
-    border:2px solid lightslategray;
-    border-radius:7px;
+    border: 2px solid lightslategray;
+    border-radius: 7px;
     font-family: cursive;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+#hi:hover {
+    background-color: lightslategray;
+    color: white;
+    cursor: pointer;
+}
+.yay{
+    color:rgb(0, 0, 0);
 }
